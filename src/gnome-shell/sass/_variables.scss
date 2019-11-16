@@ -9,7 +9,7 @@ $font-family-large: Roboto, Cantarell, Sans-Serif;
 // Font sizes
 //
 
-$font-size: if($compact == 'false', 14px, 14px);
+$font-size: if($compact == 'false', 16px, 16px);
 $font-size-subheading: if($compact == 'false', 16px, 15px);
 
 //
