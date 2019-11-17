@@ -72,6 +72,10 @@
   background-color: transparent;
 }
 
+#dashtodockContainer .app-well-app.focused .overview-icon {
+  background-color: $inverse-overlay-hover;
+}
+
 #dashtodockContainer .app-well-app-running-dot {
   background-color: transparent;
 }
