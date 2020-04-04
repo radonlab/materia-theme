@@ -739,11 +739,11 @@ button.flat:not(:only-child) {
 }
 
 toolbar .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), .titlebar .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button):not(.suggested-action):not(.destructive-action), popover.background.menu .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button),
-popover.background .linked:not(.vertical) > button.model:not(:only-child).image-button:not(.text-button), actionbar > revealer > box .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button):not(.suggested-action):not(.destructive-action), .app-notification .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), .dialog-action-box .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), filechooser #pathbarbox > stack > box.linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), infobar.info .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), infobar.question .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), #caja-extra-view-widget .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), .lock-dialog .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), .drop-shadow .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), .budgie-session-dialog .linked.horizontal:not(.vertical) > button:not(:only-child).image-button:not(.text-button), #buttonbox_frame .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button),
+popover.background .linked:not(.vertical) > button:not(:only-child).image-button.model:not(.text-button), actionbar > revealer > box .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button):not(.suggested-action):not(.destructive-action), .app-notification .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), .dialog-action-box .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), filechooser #pathbarbox > stack > box.linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), infobar.info .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), infobar.question .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), #caja-extra-view-widget .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), .lock-dialog .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), .drop-shadow .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button), .budgie-session-dialog .linked.horizontal:not(.vertical) > button:not(:only-child).image-button:not(.text-button), #buttonbox_frame .linked:not(.vertical) > button:not(:only-child).image-button:not(.text-button),
 toolbar .linked.vertical > button:not(:only-child).image-button:not(.text-button),
 .titlebar .linked.vertical > button:not(:only-child).image-button:not(.text-button):not(.suggested-action):not(.destructive-action),
 popover.background.menu .linked.vertical > button:not(:only-child).image-button:not(.text-button),
-popover.background .linked.vertical > button.model:not(:only-child).image-button:not(.text-button),
+popover.background .linked.vertical > button:not(:only-child).image-button.model:not(.text-button),
 actionbar > revealer > box .linked.vertical > button:not(:only-child).image-button:not(.text-button):not(.suggested-action):not(.destructive-action),
 .app-notification .linked.vertical > button:not(:only-child).image-button:not(.text-button),
 .dialog-action-box .linked.vertical > button:not(:only-child).image-button:not(.text-button),
@@ -1436,7 +1436,7 @@ searchbar > revealer > box {
   color: rgba(0, 0, 0, 0.26);
 }
 
-.path-bar-box .nautilus-path-bar button:not(.suggested-action):not(.destructive-action):last-child:dir(ltr), .path-bar-box .nautilus-path-bar button:not(.suggested-action):not(.destructive-action):first-child:dir(rtl), .titlebar button:not(.suggested-action):not(.destructive-action):checked {
+.path-bar-box .nautilus-path-bar button:last-child:not(.suggested-action):not(.destructive-action):dir(ltr), .path-bar-box .nautilus-path-bar button:first-child:not(.suggested-action):not(.destructive-action):dir(rtl), .titlebar button:not(.suggested-action):not(.destructive-action):checked {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #1a73e8 100%, transparent 0%) 0 0 2/0 0 2px;
   background-color: transparent;
   color: rgba(0, 0, 0, 0.87);
@@ -1444,19 +1444,19 @@ searchbar > revealer > box {
   box-shadow: inset 0 0 0 9999px transparent;
 }
 
-.path-bar-box .nautilus-path-bar button:drop(active):not(.suggested-action):not(.destructive-action):last-child:dir(ltr), .path-bar-box .nautilus-path-bar button:drop(active):not(.suggested-action):not(.destructive-action):first-child:dir(rtl), .path-bar-box .nautilus-path-bar button:hover:not(.suggested-action):not(.destructive-action):last-child:dir(ltr), .path-bar-box .nautilus-path-bar button:hover:not(.suggested-action):not(.destructive-action):first-child:dir(rtl), .titlebar button:not(.suggested-action):not(.destructive-action):checked:drop(active), .titlebar button:not(.suggested-action):not(.destructive-action):checked:hover {
+.path-bar-box .nautilus-path-bar button:last-child:drop(active):not(.suggested-action):not(.destructive-action):dir(ltr), .path-bar-box .nautilus-path-bar button:first-child:drop(active):not(.suggested-action):not(.destructive-action):dir(rtl), .path-bar-box .nautilus-path-bar button:hover:last-child:not(.suggested-action):not(.destructive-action):dir(ltr), .path-bar-box .nautilus-path-bar button:hover:first-child:not(.suggested-action):not(.destructive-action):dir(rtl), .titlebar button:not(.suggested-action):not(.destructive-action):checked:drop(active), .titlebar button:not(.suggested-action):not(.destructive-action):checked:hover {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.08);
 }
 
-.path-bar-box .nautilus-path-bar button:focus:not(.suggested-action):not(.destructive-action):last-child:dir(ltr), .path-bar-box .nautilus-path-bar button:focus:not(.suggested-action):not(.destructive-action):first-child:dir(rtl), .titlebar button:not(.suggested-action):not(.destructive-action):checked:focus {
+.path-bar-box .nautilus-path-bar button:focus:last-child:not(.suggested-action):not(.destructive-action):dir(ltr), .path-bar-box .nautilus-path-bar button:focus:first-child:not(.suggested-action):not(.destructive-action):dir(rtl), .titlebar button:not(.suggested-action):not(.destructive-action):checked:focus {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.08);
 }
 
-.path-bar-box .nautilus-path-bar button:active:not(.suggested-action):not(.destructive-action):last-child:dir(ltr), .path-bar-box .nautilus-path-bar button:active:not(.suggested-action):not(.destructive-action):first-child:dir(rtl), .titlebar button:not(.suggested-action):not(.destructive-action):checked:active {
+.path-bar-box .nautilus-path-bar button:active:last-child:not(.suggested-action):not(.destructive-action):dir(ltr), .path-bar-box .nautilus-path-bar button:active:first-child:not(.suggested-action):not(.destructive-action):dir(rtl), .titlebar button:not(.suggested-action):not(.destructive-action):checked:active {
   background-image: radial-gradient(circle, rgba(0, 0, 0, 0.12) 10%, transparent 0%);
 }
 
-.path-bar-box .nautilus-path-bar button:disabled:not(.suggested-action):not(.destructive-action):last-child:dir(ltr), .path-bar-box .nautilus-path-bar button:disabled:not(.suggested-action):not(.destructive-action):first-child:dir(rtl), .titlebar button:not(.suggested-action):not(.destructive-action):checked:disabled {
+.path-bar-box .nautilus-path-bar button:disabled:last-child:not(.suggested-action):not(.destructive-action):dir(ltr), .path-bar-box .nautilus-path-bar button:disabled:first-child:not(.suggested-action):not(.destructive-action):dir(rtl), .titlebar button:not(.suggested-action):not(.destructive-action):checked:disabled {
   background-color: transparent;
   color: rgba(0, 0, 0, 0.38);
 }
@@ -3997,7 +3997,7 @@ button.titlebutton {
 
 .view selection, .view:selected, flowbox flowboxchild:selected, label selection, spinbutton:not(.vertical) selection,
 entry selection, modelbutton.flat:selected,
-.menuitem.button.flat:selected, row:selected, calendar:selected, .nautilus-window flowboxchild:selected .icon-item-background, box.vertical > widget > widget:selected, .budgie-popover.budgie-menu button.flat:not(.image-button):checked, calendar.raven-calendar:selected, XfdesktopIconView.view:active, .nemo-window .nemo-window-pane widget.entry:selected {
+.menuitem.button.flat:selected, row:selected, calendar:selected, .nautilus-window flowboxchild:selected .icon-item-background, box.vertical > widget > widget:selected, .budgie-popover.budgie-menu button.flat:checked:not(.image-button), calendar.raven-calendar:selected, XfdesktopIconView.view:active, .nemo-window .nemo-window-pane widget.entry:selected {
   background-color: rgba(26, 115, 232, 0.24);
 }
 

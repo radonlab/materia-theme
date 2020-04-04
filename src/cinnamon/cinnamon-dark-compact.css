@@ -6,7 +6,7 @@
   text-shadow: none;
   icon-shadow: none;
   transition-duration: 100ms;
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 500;
   min-height: 32px;
   padding: 0 16px;
@@ -235,9 +235,9 @@
 }
 
 stage {
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 400;
-  font-family: "M+ 1c", Roboto, Cantarell, Sans-Serif;
+  font-family: Roboto, Cantarell, Sans-Serif;
   color: rgba(255, 255, 255, 0.87);
 }
 
@@ -363,7 +363,7 @@ StScrollView StScrollBar {
 }
 
 .popup-subtitle-menu-item {
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 500;
 }
 
@@ -372,7 +372,7 @@ StScrollView StScrollBar {
 }
 
 .popup-alternating-menu-item:alternate {
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 500;
 }
 
@@ -671,7 +671,7 @@ StScrollView StScrollBar {
 }
 
 .panel-status-button {
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 500;
   -natural-hpadding: 4px;
   -minimum-hpadding: 4px;
@@ -820,7 +820,7 @@ StScrollView StScrollBar {
 }
 
 .calendar-month-label {
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 500;
   height: 16px;
   margin: 2px;
@@ -1186,7 +1186,7 @@ StScrollView StScrollBar {
 }
 
 .keyboard-key {
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 500;
 }
 
@@ -1628,7 +1628,7 @@ StScrollView StScrollBar {
 }
 
 .applet-label {
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -1888,7 +1888,7 @@ StScrollView StScrollBar {
 }
 
 .user-label {
-  font-size: 10.5pt;
+  font-size: 12pt;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.87);
 }
